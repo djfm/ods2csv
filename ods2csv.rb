@@ -35,4 +35,9 @@ if infile = ARGV[0]
 			end
 		end
 	end
+	
+	puts "Converted #{infile} to #{outfile}!"
+	
+else
+	puts "Please provide a .ods file!"
 end
